@@ -1,4 +1,4 @@
 package nulls
 
 // Version of nulls
-const Version = "v0.0.1"
+const Version = "v0.1.0"
