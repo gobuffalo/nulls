@@ -6,7 +6,6 @@ import (
 	"strings"
 
 	"github.com/gofrs/uuid"
-	"github.com/pkg/errors"
 )
 
 // UUID can be used with the standard sql package to represent a
@@ -76,7 +75,7 @@ func (u *UUID) UnmarshalJSON(text []byte) error {
 
 	us, err := uuid.FromString(s)
 	if err != nil {
-		return errors.WithStack(err)
+		return err
 	}
 	u.UUID = us
 	u.Valid = true
