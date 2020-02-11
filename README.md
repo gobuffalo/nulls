@@ -22,3 +22,4 @@ $ go get github.com/gobuffalo/nulls
 * `int32` (`nulls.Int32`)
 * `uint32` (`nulls.UInt32`)
 * `time.Time` (`nulls.Time`)
+* `uuid.UUID` (`nulls.UUID`)
