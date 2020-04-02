@@ -1,12 +1,11 @@
 module github.com/gobuffalo/nulls
 
-go 1.12
+go 1.13
 
 require (
-	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/gofrs/uuid/v3 v3.1.2
 	github.com/jmoiron/sqlx v1.2.0
-	github.com/mattn/go-sqlite3 v1.10.0
-	github.com/stretchr/testify v1.3.0
-	google.golang.org/appengine v1.6.1 // indirect
+	github.com/mattn/go-sqlite3 v2.0.3+incompatible
+	github.com/stretchr/testify v1.5.1
+	google.golang.org/appengine v1.6.5 // indirect
 )
