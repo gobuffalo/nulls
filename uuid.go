@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/gofrs/uuid/v3"
+	"github.com/gofrs/uuid"
 )
 
 // UUID can be used with the standard sql package to represent a
