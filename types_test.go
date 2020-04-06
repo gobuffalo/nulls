@@ -10,7 +10,7 @@ import (
 	"time"
 
 	. "github.com/gobuffalo/nulls"
-	"github.com/gofrs/uuid/v3"
+	"github.com/gofrs/uuid"
 	"github.com/jmoiron/sqlx"
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/stretchr/testify/require"
