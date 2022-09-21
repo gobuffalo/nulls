@@ -27,7 +27,7 @@ func (u UUID) Interface() interface{} {
 // NewUUID returns a new, properly instantiated
 // UUID object.
 func NewUUID(u uuid.UUID) UUID {
-	return UUID{UUID: u, Valid: true}
+	return UUID{UUID: u, Valid: u != uuid.Nil}
 }
 
 // Value implements the driver.Valuer interface.
