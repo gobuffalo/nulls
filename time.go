@@ -55,6 +55,7 @@ func (ns Time) MarshalJSON() ([]byte, error) {
 // the propert representation of that value.
 func (ns *Time) UnmarshalJSON(text []byte) error {
 	ns.Valid = false
+	ns.Time = time.Time{}
 	txt := string(text)
 	if txt == "null" || txt == "" {
 		return nil
